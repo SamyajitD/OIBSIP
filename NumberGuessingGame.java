@@ -23,7 +23,7 @@ public class NumberGuessingGame {
         while (true) {
             try {
                 // For First Time Play
-                System.out.println("Press\n\n1 . Sure Lets Plays!\t2 . Not right Now\n");
+                System.out.println("Press\n\n1 . Sure Lets Plays!\t2 . Not Right Now\n");
                 NumberGuessingGame guessGame = new NumberGuessingGame();
                 int play = sc.nextInt();
                 switch (play) {
